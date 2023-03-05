@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_connect"
+    app:startDestination="@id/nav_homeFragment">
+
+    <fragment
+        android:id="@+id/nav_homeFragment"
+        android:name="com.example.gastos.ui.home.HomeFragment"
+        android:label="@string/home_fragment_label"
+        tools:layout="@layout/fragment_home"/>
+
+    <fragment
+        android:id="@+id/nav_NewGastoFragment"
+        android:name="com.example.gastos.ui.newSome.NewSomeFragment"
+        tools:layout="@layout/fragment_new_some">
+    </fragment>
+    <fragment
+        android:id="@+id/nav_ListaFragment"
+        android:name="com.example.gastos.ui.list.ListaFragment"
+        android:label="@string/lista_fragment_label"
+        tools:layout="@layout/fragment_lista">
+    </fragment>
+    <fragment
+        android:id="@+id/nav_errorFragment"
+        android:name="com.example.gastos.ui.error.ErrorFragment"
+        android:label="@string/error_fragment_label"
+        tools:layout="@layout/fragment_error"/>
+</navigation>

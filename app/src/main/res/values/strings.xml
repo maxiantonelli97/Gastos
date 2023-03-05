@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Gastos</string>
+    <string name="action_logIn">Iniciar Sesion</string>
+    <string name="action_logOut">Cerrar Sesion</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="home_fragment_label">Mis Gastos</string>
+    <string name="lista_fragment_label">Lista</string>
+    <string name="error_fragment_label">Ha ocurrido un error</string>
+    <string name="login_fragment_label">Iniciar Sesión</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="gasto_label">Nuevo Gasto</string>
+    <string name="transf_label">Nueva Transferencia</string>
+    <string name="ingreso_label">Nuevo Ingreso</string>
+
+
+    <string name="new_text">Nuevo</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+
+    // <string name="ID_cliente_google">7463485566-rf6pi9p95pe8d5cdbp4dqdddjvfb414d.apps.googleusercontent.com</string>
+
+    <string name="categorias">Categorias</string>
+    <string name="cero">0</string>
+    <string name="cuentas">Cuentas</string>
+    <string name="cuentas_mayus">CUENTAS</string>
+    <string name="a_cuenta">A cuenta…</string>
+    <string name="de_cuenta">De cuenta…</string>
+    <string name="descripcion">Descripcion</string>
+    <string name="enviar">Enviar</string>
+    <string name="monto">Monto</string>
+    <string name="fecha">Fecha</string>
+    <string name="realizado">Realizado</string>
+
+    <string name="no_vacio">Este campo no puede estar vacío</string>
+    <string name="no_cero">Este campo no puede ser 0</string>
+    <string name="cuenta_no_igual">La cuenta a la que se transfiere, no puede ser igual a la de origen</string>
+
+    <string name="inicie_sesion">Inicie sesión para usar la aplicación</string>
+    <string name="error_refresh">Ha ocurrido un error.\n Deslice hacía abajo para reintentar</string>
+    <string name="conectese">No hay conexion a internet disponible. Intente nuevamente más tarde</string>
+
+    <string name="dateFormat">%d/%d/%d</string>
+    <string name="nacion">Nación</string>
+    <string name="galicia">Galicia</string>
+    <string name="billetera">Billetera</string>
+
+    <string name="monto_pesos">$ %.2f</string>
+
+    <string name="no_items">No hay elementos disponibles</string>
+    <string name="back"><![CDATA[<]]></string>
+    <string name="nextt"><![CDATA[>]]></string>
+
+    <string name="eliminar_item">Desea eliminar este item?</string>
+
+    <string name="eliminar">Eliminar</string>
+    <string name="total">TOTAL</string>
+</resources>
